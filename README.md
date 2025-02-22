@@ -38,8 +38,8 @@ jsonplaceholder-app/
 ## 🛠 **Setup & Run Locally**
 ### **1️⃣ Clone the repository**
 ```sh
-git clone https://github.com/your-username/jsonplaceholder-app.git
-cd jsonplaceholder-app
+git clone 
+cd mod-takehome
 ```
 
 ### **2️⃣ Install dependencies**
