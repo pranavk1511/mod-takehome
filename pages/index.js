@@ -10,7 +10,7 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">📜 Blog Posts</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-black-600">📜 Blog Posts</h1>
       <PostList posts={posts} />
     </div>
   );

@@ -24,7 +24,7 @@ export default function PostDetail({ post }) {
         <meta name="description" content={post.body} />
       </Head>
       <div className="max-w-2xl bg-white p-6 rounded-lg shadow-lg text-center">
-        <h1 className="text-4xl font-bold mb-4 text-blue-700">{post.title}</h1>
+        <h1 className="text-4xl font-bold mb-4 text-black-700">{post.title}</h1>
         <p className="text-gray-700 text-lg leading-relaxed">{post.body}</p>
         <Link
           href="/"
