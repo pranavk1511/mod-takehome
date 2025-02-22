@@ -38,7 +38,7 @@ jsonplaceholder-app/
 ## 🛠 **Setup & Run Locally**
 ### **1️⃣ Clone the repository**
 ```sh
-git clone 
+git clone "https://github.com/pranavk1511/mod-takehome.git"
 cd mod-takehome
 ```
 
