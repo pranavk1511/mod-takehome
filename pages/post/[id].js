@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 export async function getStaticPaths() {
+  
   const res = await fetch("https://jsonplaceholder.typicode.com/posts?_limit=10");
   const posts = await res.json();
   const paths = posts.map((post) => ({ params: { id: post.id.toString() } }));

@@ -3,7 +3,7 @@ import PostList from "../components/PostList";
 export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts?_limit=10");
   const posts = await res.json();
-  return { props: { posts }, revalidate: 3600 }; // Cache updates every 1 hour
+  return { props: { posts }, revalidate: 3600 }; // revalidate every hour
 }
 
 
